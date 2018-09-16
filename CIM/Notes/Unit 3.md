@@ -5,7 +5,7 @@
  - Aggregate planning is a high-level corporate planning activity. The aggregate production plan indicates production output levels for the major product lines of the company.
 
 
-![u133](/src/u133.png)
+![u133](/CIM/Notes/src/u133.png)
 
 <center><strong>Figure:  - Activities in a PPC system
 
@@ -16,7 +16,7 @@
  - The production quantities of the major product lines listed in the aggregate plan must he converted into a very specific schedule of individual products, known as the master production schedule (MPS). It is a list or the products to be manufactured, when they should be completed and delivered, and in what quantities. The master schedule must be based on an accurate estimate of demand and a realistic assessment of the company's production capacity. The MPS planning period, or horizon, can be of any length, but should be at least as long as a company’s longest cumulative lead time (the time it takes to complete a product from raw material to finished goods.). Many systems include a rough cut capacity planning (RCCP) capability, which compares certain MPS items of the master schedule to specified key resources of the plant (or multiple plants) to determine if the master schedule is workable, given current the plant capacity. If the master schedule is not achievable, the system modifies the MPS or the production plan (For example, reduce the amount of products to be produced or commit to increasing the capacity of the plant) until the master schedule is achievable.
 
 
-![u134](/src/u134.png)
+![u134](/CIM/Notes/src/u134.png)
 
 <center><strong>Figure:  - Modules of Master Scheduling
 
@@ -131,7 +131,7 @@
  4. Determined the planned order releases
 
 
-![u135](/src/u135.png)
+![u135](/CIM/Notes/src/u135.png)
 
 # MRP Table
 
@@ -142,7 +142,7 @@
  - MRP computations are shown in Table where the lead-time is two weeks. Here the planned releases were obtained by solving a Wagner-Whitin problem with time-varying demand. More often, however, MRP will plan releases in a lot-by-lot fashion.
 
 
-![u136](/src/u136.png)
+![u136](/CIM/Notes/src/u136.png)
 
 # Standard MRP Table
 
@@ -167,7 +167,7 @@
  - There are two types of loading in CRP: finite and infinite. With finite loading, CRP considers the total capacity of a work centre and does not load beyond that point. Infinite loading loads all work for the period into the appropriate work centres then produces over and under load reports showing where more or less capacity are needed to efficiently handle the load. Although they may generate suggestions, most MRP systems require human intervention to help balance the capacity and load. A planner can decide whether delaying the order release, subcontracting the job, splitting the job into several smaller jobs, routing through an alternative work centre, or authorizing overtime will best eliminate the over-under load on the work centre and still get the job done on time. Another aspect of CRP is Input/Output control (I/O). I/O control monitors the amount of work going into and coming out of a work centre and compares it to a standard or expected amount. A back log will develop behind any work centre that continually puts out less work than it takes in. CRP and I/O control are good tools for monitoring the shop floor for bottlenecks and unused capacity.
 
 
-![u137](/src/u137.png)
+![u137](/CIM/Notes/src/u137.png)
 
 <center><strong>Figure:  - Modules of Capacity Requirement Plan
 
@@ -646,7 +646,7 @@
   - Documentation
 
 
-![u138](/src/u138.png)
+![u138](/CIM/Notes/src/u138.png)
 # Fig. Supply Chain
 
  - ix. Utilities Module
@@ -822,7 +822,7 @@
  - In this particular example, we are milling around the outside of a workpiece contour. Notice that we are using a one-inch diameter end mill for machining the contour and we are programming the very center of the end mill. Later, during key concept number four, we will discuss a way to actually program the workpiece contour (not the cutter centerline path).
 
 
-![u139](/src/u139.png)
+![u139](/CIM/Notes/src/u139.png)
 
  - While you may not understand all commands given in this program, concentrate on understanding what is happening in the motion commands (G00, G01, and G02/G03). With study, you should be able to see what is happening. Messages in parentheses are provided to document what is happening in each command.
 
@@ -892,7 +892,7 @@
  - With the development of CNC, DNC concept was extended to CNC machines also mainly for part program management. The DNC computer (sometimes referred to as host computer) could serve a number of CNC machines in shop floor. The DNC computer stores all the part programs and transfers the part programs to the CNC machines in response to the requests of the operators.
 
 
-![u140](/src/u140.png)
+![u140](/CIM/Notes/src/u140.png)
 
  - A DNC System
 

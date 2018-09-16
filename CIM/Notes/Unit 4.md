@@ -37,7 +37,7 @@
  - In conventional production system, a process plan is created by a process planner. It requires a significant amount of time and expertise to determine an optimal routing for each new part design. However, individual engineers will have their own opinions about what constitutes the best routing. Accordingly there are differences among the operation sequences developed by various planners. Efficient process planning requires the service of experienced process planners.
 
 
-![u141](/src/u141.png)
+![u141](/CIM/Notes/src/u141.png)
 
  - Because of the problems encountered with manual process planning, attempts have been made in recent years to capture the logic, judgment and experience required for this important function and incorporates them into computer programs. Based on the features of a given part, the program automatically generates the sequence of manufacturing operations. The process planning software provides the opportunity to generate production routings which are rational, consistent and perhaps even optimal.
 
@@ -135,7 +135,7 @@
   - The quality of the final process plan largely depends on the knowledge and experience of process planner. The dependency on process planner is one of the major shortcomings of variant process planning.
 
 
-![u142](/src/u142.png)
+![u142](/CIM/Notes/src/u142.png)
 # FRAMEWORK OF VARIANT PROCESS PLANNING ACTIVITY
 
  - Some of the most widely used process planning method developed by various company are mentioned as follows:
@@ -170,7 +170,7 @@
  - Operation instruction sets are automatically generated to help the operators to run the machines in case of manual operation. NC codes are automatically generated, when numerically controlled machines are used.
 
 
-![u143](/src/u143.png)
+![u143](/CIM/Notes/src/u143.png)
 # FRAMEWORK OF A DECISION TABLE
 
  - Manufacturing knowledge plays a vital role in process planning. The process of acquisition and documentation of manufacturing knowledge is a recurring dynamic phenomenon. In addition, there are various sources of manufacturing knowledge such experience of manufacturing personnel, handbooks, supplier of machine tools, tools, jigs and fixtures materials, inspection equipment and customers etc. Hence, in order to understand manufacturing information, ensuring its clarity and providing a framework for future modification, it is not only necessary but also inevitable to develop a good knowledge structure from wide spectrum of knowledge. Flowchart, decision trees, decision tables, algorithms, concepts of unit machined surfaces, pattern recognition techniques, and artificial intelligent based tools are used to serve the purpose. A brief discussion on decision table is given below.
@@ -181,12 +181,12 @@
 
 # Boolean Value-Type Entries
 
-![u144](/src/u144.png)
+![u144](/CIM/Notes/src/u144.png)
  - * T : True; F : False
 
 # Continuous Value-type Entries
 
-![u145](/src/u145.png)
+![u145](/CIM/Notes/src/u145.png)
  - * T : true
 
  - The decision making process works as follow.
@@ -206,7 +206,7 @@
 
 # Some of the Variant and Generative CAPP Systems
 
-![u146](/src/u146.png)
+![u146](/CIM/Notes/src/u146.png)
 # Knowledge-based Process Planning
  - The main forces behind to apply knowledge-based (KB) techniques for CAPP is the requirement of large amount of human expertise in CAPP. Based on the previous discussion, one realizes that a productive CAPP system must contain tremendous amount of knowledge – facts about the machine and shop environment as well as rules about sequencing machining operations must be included. A traditional CAPP program cannot learn new knowledge without a programmer explicitly rewriting it. The rigidity of traditional methodology endangers the implementation of CAPP systems. A KB system stores knowledge in a special manner so that it is possible to add, delete and modify facts and rules in the knowledge base without rewriting the program, i.e. it learns new things according to embedded learning procedures.
 
@@ -289,7 +289,7 @@
  - Here, it is pertinent to mention that feature recognition is not only applicable to CAPP system but it can also be applied to various other engineering applications that require information about feature of parts classification and automated coding in GT.
 
 
-![u147](/src/u147.png)
+![u147](/CIM/Notes/src/u147.png)
 # ADVANCE LEVEL INFORMATION
 
 
@@ -302,7 +302,7 @@
 # A Brief Review and Recent Trends in Feature Recognition Research Author
 
 
-![u148](/src/u148.png)
+![u148](/CIM/Notes/src/u148.png)
 
  - Representing FEV contained in a BREP graph. As a result a hole may be present as a collection of faces that must be recognized from the part data.  A number of approaches to part feature recognition for rotational as well as prismatic parts have been developed. These different approaches are enlisted as follows:
 
@@ -415,10 +415,10 @@
  - The basic code consists of nine digits, which can be extended by adding four more digits. The first nine digits are intended to convey both design and manufacturing data. The general interpretation of the nine digits is indicated below The first five digits, 12345, are called the “form code” and describe the primary design attributes of the part. The next four digits, 6789, constitute the supplementary code. It indicates some of the attributes that would be of use to manufacturing (work material, raw work piece shape, and accuracy). The extra four digits, ABCD, are referred to as the secondary code and are intended to identify the production operation type and sequence. The secondary code can be designed by the firm to serve its own particular needs. In the form code, the first digit identifies whether the part is a rotational or a nonrotational part. It also describes the general shape and proportions of the part.
 
 
-![u149](/src/u149.png)
+![u149](/CIM/Notes/src/u149.png)
 # SPECIFICATION SCHEME
 
-![u150](/src/u150.png)
+![u150](/CIM/Notes/src/u150.png)
 # CODING THE FIRST FIVE DIGITS
 
 # PROCESS SELECTION
@@ -444,7 +444,7 @@
  - Given the part design, the form code for this part is discussed below.
 
 
-![u151](/src/u151.png)
+![u151](/CIM/Notes/src/u151.png)
 
 # EXAMPLE PART
 
@@ -488,7 +488,7 @@
  - A robot is a system made up of several elements of hardware and software. These elements are illustrated below:
 
 
-![u152](/src/u152.png)
+![u152](/CIM/Notes/src/u152.png)
 # Elements of a Robotic System
 
 # Mechanical Components:
@@ -529,7 +529,7 @@
  - Four basic robot arm geometries are used for industrial applications. These are illustrated below
 
 
-![u153](/src/u153.png)
+![u153](/CIM/Notes/src/u153.png)
 # Basic Classification of Robots
 
 # Rectangular Co-ordinate Robots
@@ -553,7 +553,7 @@
  - This is a rectangular co-ordinate configuration with all three linear axes of motion suspended above the work space. It can be made very rigid, which allows high precision and high acceleration. It also lends itself to modularity in design for a variety of configurations, including multiple arms. This type of robots is used for loading work pieces in CNC turning centres in flexible turning installations.
 
 
-![u154](/src/u154.png)
+![u154](/CIM/Notes/src/u154.png)
 # Gantry Robot
 
 # Selective Compliance Assembly Robot Arm (SCARA):
@@ -561,7 +561,7 @@
  - This configuration shown below and is horizontally revolute. A robot of this type moves by sweeping over the workspace at a fixed horizontal distance before moving a vertical arm down. This permits a compact and relatively low cost design for small assembly tasks.
 
 
-![u155](/src/u155.png)
+![u155](/CIM/Notes/src/u155.png)
 # SCARA Robot
 
 # Robot Anatomy
@@ -581,7 +581,7 @@
  - This enables the robot to take its end-effector to different heights.
 
  - These degrees of freedom, in combination with others or independently, define the complete motion of the end-effector. Individual joints of the robot arm are responsible for the accomplishment of different movements. The joint movements are in synergy with the relative motion of adjoining links. Depending on the nature of this relative motion, the joints are classified as prismatic or revolute.
-<center><strong>Robot Classification 
+<center><strong>Robot Classification
  - Robots are being classified on the basis of their physical configuration and control systems adopted. These classifications are briefly described as follows:
 
 # Classification on the Basis of Physical Configurations
@@ -739,7 +739,7 @@
  - It is connected with other computers and systems such as mainframe host computer, the Automated Storage and Retrieval System (AS/RS), and the Flexible Manufacturing System.
 
 
-![u156](/src/u156.png)
+![u156](/CIM/Notes/src/u156.png)
 
  - Now-a-days, AGVS are versatile in nature and possess flexible material-handling system. They use modern microprocessor technology to guide a vehicle along a prescribed path and makes correction if the vehicle strays from the path. A system controller receives instructions directly from the host computer, communicates with other vehicles, and issues appropriate commands to each vehicle. To avoid collision, communication is necessary among the AGVs. To facilitate the communication, they are connected through a wire in the floor or by radio.
 
@@ -762,7 +762,7 @@
  - The level of sophistication of the AGVS has increased to allow automatic positioning and pickup and drop-off (P/D) of cargo, and they also perform P/D services between machining work centers, storage racks, and the AS/RS. They are also capable of two-way travel on the same path and real-time dispatching under the control of the computer. The different types of AGVS are discussed in the section to follow.
 
 
-![u157](/src/u157.png)
+![u157](/CIM/Notes/src/u157.png)
 
 # AGVS Towing Vehicle
 
@@ -849,14 +849,14 @@
 # Objectives for Installing an Automated Storage System in a Factory
 
 
-![u158](/src/u158.png)
+![u158](/CIM/Notes/src/u158.png)
 
 # AS/RS COMPONENTS AND TERMINOLOGY
 
  - An AS/RS consists of one or more storage aisles that are serviced by a storage/retrieval (S/R) machine. The stored materials are held by storage racks of aisles. The S/R machines are used to deliver and retrieve materials in and out of inventory. There are one or more input/output stations in each AS/RS aisle for delivering the material into the storage system or moving it out of the system. In AS/RS terminology, the input/output stations are called pickup-and-deposit (P and D) stations.
 
 
-![u159](/src/u159.png)
+![u159](/CIM/Notes/src/u159.png)
 # Generic Structure of as AS/RS
 
 
@@ -978,7 +978,7 @@
  - 3) The part is damaged in transit and requires rework or scrap.
 
 
-![u160](/src/u160.png)
+![u160](/CIM/Notes/src/u160.png)
 
  - Two of the three outcomes are no desirable, which further leads to minimizing handling. Because material handling occurs between all operations, when possible, the handling should be integrated into the process, and the transport distances minimized.
 
@@ -1005,7 +1005,7 @@
   - Shitsuke (sustain, discipline)
 
 
-![u161](/src/u161.png)
+![u161](/CIM/Notes/src/u161.png)
 
 # AGILE MANUFACTURING SYSTEMS
 
@@ -1130,7 +1130,7 @@
   - Holonic manufacturing system: a holarchy that integrates the entire range of manufacturing activities from order booking through design, production, and marketing to realize the agile manufacturing enterprise.
 
 
-![u162](/src/u162.png)
+![u162](/CIM/Notes/src/u162.png)
 # Holon general architecture
 
 # CAPACITY REQUIREMENTS PLANNING (CRP)
@@ -1140,7 +1140,7 @@
  - There are two types of loading in CRP: finite and infinite. With finite loading, CRP considers the total capacity of a work centre and does not load beyond that point. Infinite loading loads all work for the period into the appropriate work centres then produces over and under load reports showing where more or less capacity are needed to efficiently handle the load. Although they may generate suggestions, most MRP systems require human intervention to help balance the capacity and load. A planner can decide whether delaying the order release, subcontracting the job, splitting the job into several smaller jobs, routing through an alternative work centre, or authorizing overtime will best eliminate the over-under load on the work centre and still get the job done on time. Another aspect of CRP is Input/Output control (I/O). I/O control monitors the amount of work going into and coming out of a work centre and compares it to a standard or expected amount. A back log will develop behind any work centre that continually puts out less work than it takes in. CRP and I/O control are good tools for monitoring the shop floor for bottlenecks and unused capacity.
 
 
-![u163](/src/u163.png)
+![u163](/CIM/Notes/src/u163.png)
 <center><strong>Figure:  - Modules of Capacity Requirement Plan
 
 # The CRP software

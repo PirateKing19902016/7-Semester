@@ -7,7 +7,7 @@
  - A distinct feature of manufacturing today is mass customization. This implies that though the products are manufactured in large quantities, products must incorporate An overview of CIM is presented in this chapter. A brief account of the evolution of CIM is included. The major functions carried out in a manufacturing plant are surveyed and the different levels of integration are identified. customerspecific changes to satisfy the diverse requirements of the customers. This requires extremely high flexibility in the manufacturing system. The challenge before the manufacturing engineers is illustrated in Fig.
 
 
-![u90](/src/u90.png)
+![u90](/CIM/Notes/src/u90.png)
 # Figure: Challenges in Manufacturing
 
  - Manufacturing industries strive to reduce the cost of the product continuously to remain competitive in the face of global competition. In addition, there is the need to improve the quality and performance levels on a continuing basis. Another important requirement is on time delivery. In the context of global outsourcing and long supply chains cutting across several international borders, the task of continuously reducing delivery times is really an arduous task. CIM has several software tools to address the above needs. Manufacturing engineers are required to achieve the following objectives to be competitive in a global context.
@@ -118,7 +118,7 @@
   - Information Management
 
 
-![u91](/src/u91.png)
+![u91](/CIM/Notes/src/u91.png)
 # i. Marketing:
  60.0
 
@@ -144,7 +144,7 @@
  - Finance deals with the resources pertaining to money. Planning of investment, working capital, and cash flow control, realization of receipts, accounting and allocation of funds are the major tasks of the finance departments.
 
 
-![u91](/src/u91.png)
+![u91](/CIM/Notes/src/u91.png)
 
 # ix. Information Management:
  - Information Management is perhaps one of the crucial tasks in CIM. This involves master production scheduling, database management, communication, manufacturing systems integration and management information systems.
@@ -349,7 +349,7 @@
  - A B+-tree is a data structure to store vast amounts of information. Typically B+-trees are used to store amounts of data that will not fit in main system memory. To do this, secondary storage (usually disk) is used to store the leaf nodes of the tree. Only the internal nodes of the tree are stored in computer memory. In a B+-tree the leaf nodes are the only ones that actually store data items. All other nodes are called index nodes or i-nodes and simply store guide values which allow us to traverse the tree structure from the root down and arrive at the leaf node containing the data item we seek as shown in figure. Because disk I/O is very slow in comparison to memory access these leaf nodes store more than one data item each.
 
 
-![u93](/src/u93.png)
+![u93](/CIM/Notes/src/u93.png)
 
 # Pros of B+-tree
 
@@ -366,10 +366,10 @@
  - Let us consider a case of emp and dept tables whose instances are shown in table. Both the tables have deptno as a common column. In Oracle these tables may be clustered together as shown in figure with deptno as a cluster key which is stored only once to improve the efficiency of the system.
 
 
-![u94](/src/u94.png)
+![u94](/CIM/Notes/src/u94.png)
 
 
-![u95](/src/u95.png)
+![u95](/CIM/Notes/src/u95.png)
 
  - Illustrates how the EMP and Dept tables would be stored if we clustered the tables based on the column Deptno. When these two tables are clustered, each unique Deptno value is stored only once, in the cluster key. To each Deptno value are attached the column from both these tables.
 
@@ -422,21 +422,21 @@
  - Information Builders and i Way Software Professional Services specialize in building custom-tailored Web decision support systems. We offer service packages designed for quick implementations, and we use the latest technologies to incorporate leading-edge capabilities into our solutions – including a wide range of wireless and mobile options.
 
 
-![u96](/src/u96.png)
+![u96](/CIM/Notes/src/u96.png)
 
-![u97](/src/u97.png)
+![u97](/CIM/Notes/src/u97.png)
 
 # CNC Milling: Introduction to cutting tools
 
 
-![u98](/src/u98.png)
+![u98](/CIM/Notes/src/u98.png)
 
  - Cutting tools come in a range of sizes, materials, and geometry types.
 
  - It is generally more efficient to use a combination of different tool paths and tools to achieve a detailed model rather than assuming that a small tool with a smaller step over is the only way. Often, a larger tool can achieve better finish results. In end milling, the cutter generally rotates on an axis vertical to the work piece. Cutting teeth are located on both the end face of the cutter and the periphery of the cutter body. A ball nose end mill, also known as a spherical end mill or ball end mill, has a semi sphere at the tool end. Ball nose end mills are used on work pieces with complex surfaces. Choosing flat end mill vs. a ball end mill will determine the characteristics of the tooling marks (or lack thereof) on your model. Most jobs will benefit from strategic use of multiple size and shape tools for milling different features. End Mills are often used for roughing and 2D cutting and V-Bit and Ball Nose cutters are often used for finishing operations.
 
 
-![u99](/src/u99.png)
+![u99](/CIM/Notes/src/u99.png)
 
 # End geometry
  - There are up-cut, down-cut, compression cut end mills with varying numbers of flutes. End mills are intended to cut horizontally.
@@ -450,14 +450,14 @@
  - Flat end mills can be Center Cutting and Non Center Cutting: Center cutting square endmills are essential for plunge milling. Non-center cutting mills are used only for side milling.
 
 
-![u100](/src/u100.png)
+![u100](/CIM/Notes/src/u100.png)
 
  - When choosing a ball end mill always chooses the largest size available. For the same stepover, a larger tool will leave smaller scallops, thus giving a smoother result. For a generally smooth model with some areas of fine detail, a large tool should be used for the overall job and a smaller tool should be used only to clean out detailed areas.
 
  - Larger tools cut more cleanly, have larger clearance, and stay sharp longer. The velocity of the cutting edge on a larger tool is higher for the same spindle speed.
 
 
-![u101](/src/u101.png)
+![u101](/CIM/Notes/src/u101.png)
 
 # Stepover
 
@@ -466,7 +466,7 @@
  - The stepover value (along with tool size) will determine whether the model has a smooth finish, or tooling marks are visible. It will also directly impact cutting time. Models with a smaller stepover take longer to cut.
 
 
-![u102](/src/u102.png)
+![u102](/CIM/Notes/src/u102.png)
 
 # Stepdown
 
@@ -479,7 +479,7 @@
  - Some projects may benefit from other types of flute geometry. Contour cutting MDF or plywood sheets would benefit from down-cut spirals as the tool would push the material against the CNC machine table as it cuts rather than lift it.
 
 
-![u103](/src/u103.png)
+![u103](/CIM/Notes/src/u103.png)
 
 # Number of Flutes
 
@@ -494,7 +494,7 @@
 # Examples of applications using end mills:
 
 
-![u104](/src/u104.png)
+![u104](/CIM/Notes/src/u104.png)
 
 # Tool Materials
 
@@ -509,15 +509,15 @@
 # Other types of tools used at our fablab:
 
 
-![u105](/src/u105.png)
+![u105](/CIM/Notes/src/u105.png)
  - Carbide Drill bits to drill PCB.
 
 
-![u106](/src/u106.png)
+![u106](/CIM/Notes/src/u106.png)
  - Carbide PCB Engraving V Bits
 
 
-![u107](/src/u107.png)
+![u107](/CIM/Notes/src/u107.png)
  - Diamond dental Bits to engrave PCB
 
 # Angle plate
@@ -533,7 +533,7 @@
  - Angle plates are used to measure and hold various work piece whilst being worked upon.
 
 
-![u108](/src/u108.png)
+![u108](/CIM/Notes/src/u108.png)
 
 # Work Holding Devices
 
@@ -550,14 +550,14 @@
 # T-Slots
 
 
-![u109](/src/u109.png)
+![u109](/CIM/Notes/src/u109.png)
 
  - T-Slots are the most common method of positioning and holding down your work holding solution...
 
  - T-Slots are by far the most common way of positioning and holding down your Work holding solution. They are simple, robust, and they work. To attach something to a T-Slotted table, use T-Slot nuts and suitable studs or other fasteners that fit the nuts:
 
 
-![u110](/src/u110.png)
+![u110](/CIM/Notes/src/u110.png)
 
 # T-Slot Nuts
 
@@ -584,7 +584,7 @@
  - Fixture Sub-Plates (also called Tooling Plates) are plates that are installed on top of a T-Slot table to provide a new way to position and secure Work holding. A typical Tooling Plate looks like this:
 
 
-![u111](/src/u111.png)
+![u111](/CIM/Notes/src/u111.png)
 
 # A typical Tooling Plate
 
@@ -607,7 +607,7 @@
  - With a Quick Change system, the time required to deal with the dowel pins and fasteners is reduced through some kind of integrated solution that allows precise position and locking very quickly. One such is the Jergens Ball Lock system
 
 
-![u112](/src/u112.png)
+![u112](/CIM/Notes/src/u112.png)
 
 # Ball Locks are a Quick Release system for Tooling Plates
 
@@ -638,7 +638,7 @@
 # Milling Vise
 
 
-![u113](/src/u113.png)
+![u113](/CIM/Notes/src/u113.png)
 
 # A pair of milling vises sits side by side on a machine table
 
@@ -663,12 +663,12 @@
  - There are a lot of Vise Jaw tricks but one of the first to be aware of is that you can mount the jaws either inside or outside the normal jaw mounting locations. Mounting outside allows larger plates to be gripped in the vise easily:
 
 
-![u114](/src/u114.png)
+![u114](/CIM/Notes/src/u114.png)
 
 # By mounting the jaws in the outside position, quite a large workpiece can be accommodated
 
 
-![u115](/src/u115.png)
+![u115](/CIM/Notes/src/u115.png)
 
 # Increasing rigidity is always important. For this operation, two 2-4-6 blocks are used as a vise jaw extension to help support the plate on end better
 
@@ -683,7 +683,7 @@
  - Another trick that's possible with two vises is to use jaws that span both vises for handling really long parts:
 
 
-![u117](/src/u117.png)
+![u117](/CIM/Notes/src/u117.png)
 # Spanning two vises with a single set of jaws
 
 # Double Milling Vise
@@ -691,7 +691,7 @@
  - Having spread three or four vises across your mill table, you've pretty well taken advantage of the X-Axis. But, there's an opportunity to take better advantage of the Y-Axis by using Double Vises:
 
 
-![u118](/src/u118.png)
+![u118](/CIM/Notes/src/u118.png)
 # A typical double station vise is like 2 vises in one
 
  - A typical double station vise is like 2 vises in one: you can put two work pieces instead of one. With judicious use of double vises you can really multiply the number of parts that can be worked at the same time on your mill's table.
@@ -701,13 +701,13 @@
  - Between using multiple vises, double station vises, moving the jaws around, and even using jaws that span multiple vises, quite a lot is possible using just vises. In fact, you can even use the vises to hold other Work holding gadgets. It's a very common trick to drop a sine vise into a milling vise to get jaws working the other direction:
 
 
-![u119](/src/u119.png)
+![u119](/CIM/Notes/src/u119.png)
 # Use a sine vise to hold a part at 90 degrees from where the milling vise jaws run
 
  - You can also create small plate fixtures that are designed to sit in a vise, creating what is often called a vise pallet since the individual plate fixtures can be swapped out of the vises much like pallets.
 
 
-![u120](/src/u120.png)
+![u120](/CIM/Notes/src/u120.png)
 # Vise Pallets are just small plate fixtures designed to be held in the jaws of a milling vise
 
  - In general, solutions like Vise Pallets are created to enable vises to be left on the machine in shops where the flexibility and simplicity of vise work holding is ideal for most of their jobs. Soft Jaws and Custom Hard Jaws Multiply the Vise's Work holding Flexibility. Soft Jaws on milling vises are a very popular form of work holding. The idea is to create aluminum vise jaws (since aluminum is softer than ferrous materials that's where the name comes from) that are customized for particular jobs. Sometimes a more durable material is advantageous, in which case we have Hard Jaws.
@@ -715,22 +715,22 @@
 # Here are some examples:
 
 
-![u121](/src/u121.png)
+![u121](/CIM/Notes/src/u121.png)
 
   - Use soft jaws to locate and hold a larger round part. A V is often seen, but it won't support the part as well as the soft jaws
 
 
-![u122](/src/u122.png)
+![u122](/CIM/Notes/src/u122.png)
 
   - As mentioned above, we don't want to grip the whole height of the part in the jaws. A particularly thin grip can be had with dovetail jaws. The little red circle points to the dovetail which locks the workpiece in from slipping upward under heavy machining. These are Carvesmart quick change jaws.
 
 
-![u123](/src/u123.png)
+![u123](/CIM/Notes/src/u123.png)
 
   - Here's a common setup. The part is machined from a block on the left (those are the same Carvesmart dovetail jaws). Then the part is flipped in a set of custom soft jaws on the right that are the mirror image of the part. A Face mill then takes off the little bit of flat stock left from the original material (that's already happened in this photo).
 
 
-![u124](/src/u124.png)
+![u124](/CIM/Notes/src/u124.png)
 
   - Lang Innovations makes these neat jaws that make it easy to set the workpiece in the vise at a precise angle when needed. The pins can be individually pushed in to create angles and other holding patterns too
 
@@ -743,7 +743,7 @@
  - As useful as vises are, they have a sweet spot for part size. They have a difficult time with really large plate work, though as mentioned you can move the jaws to the outside positions for medium-sized plates. And, they can also be less than optimal for very small parts. Sure, you can fit multiple parts in a set of Soft Jaws, but the space between adjacent vises and the space required for the vise mechanism makes it hard to fully fill the table with as many small parts as you might otherwise be able to.
 
 
-![u125](/src/u125.png)
+![u125](/CIM/Notes/src/u125.png)
 
  - It's hard to achieve this dense packing of smaller parts with a vise, but a plate fixture makes it easy. This one uses Mitee Bite Pit Bull clamps. The effect is not unlike tiny milling vises designed to fit each part just right.
 
@@ -754,13 +754,13 @@
  - The most common type of clamps are called step clamps because they have little steps machined on them. They're commonly used with T-Slots, although you can also use bolt them into a Tooling Plate. Here are some typical Step Clamps:
 
 
-![u126](/src/u126.png)
+![u126](/CIM/Notes/src/u126.png)
 # Step Clamp holding down plate, step block supporting end of clamp, and bolt goes through
 
 # T-Slot Nut
 
 
-![u127](/src/u127.png)
+![u127](/CIM/Notes/src/u127.png)
 # A typical Step Clamp Set
 
  - Pictured is a typical Step Clamp Set. It can be handy to stock up on a an extra set so you've got more clamping parts to work with. By stacking the Step Blocks and using longer bolts, you can clamp workpieces that are quite tall. When using step clamps, keep the bolt close to the workpiece rather than the step block. Also, it can be helpful to angle the clamp down on the part by raising it up a step or two from level. You may also want to put a shim of soft material between the clamp and the workpiece if you want to avoid marring the workpiece. Soda can makes a great shim for this purpose if you slice out some strips with your snips.
@@ -770,12 +770,12 @@
  - Step Clamps grip the top of the workpiece, which is sometimes inconvenient because you might need to machine the area being gripped. Toe Clamps grip the side of the workpiece to give you full access to the top of the workpiece. There are a wide variety of different styles available:
 
 
-![u128](/src/u128.png)
+![u128](/CIM/Notes/src/u128.png)
 
  - This toe clamp moves the clamp down a ramp when tightened to press against the workpiece
 
 
-![u129](/src/u129.png)
+![u129](/CIM/Notes/src/u129.png)
 
  - Double Sided Tape, Glue, Wax, and Low Melting Point Alloys
 
@@ -798,7 +798,7 @@
  - Lathe Chucks are particularly common on 4th Axes because we often start from round stock. Every now and then we put round parts on the mill because it's just downright faster. Consider this setup for machining round parts::
 
 
-![u130](/src/u130.png)
+![u130](/CIM/Notes/src/u130.png)
 # Expanding Mandrels, Arbors, and Studs
 
  - Toe Clamps are one solution to keeping the workholding away from the milling, but we can do even better using expanding mandrels, arbors, or studs. The idea is to put an expanding cylinder in a hole on the underside of the workpiece and expand it to lock the workpiece in place. Once that's done, you can access the workpiece from every direction except the bottom without encountering the workholding (do remember where the mandrels are though so you don't have one in the middle of a pocket waiting to be hit!).
@@ -806,7 +806,7 @@
  - Here is a fixture using expanding studs:
 
 
-![u131](/src/u131.png)
+![u131](/CIM/Notes/src/u131.png)
 
  - Turn the bolt opens the expanding stud so it can clamp the workpiece...
 
@@ -851,4 +851,3 @@
  - with the addition of a compound table on top of the rotary table, the user can move the center of rotation to anywhere on the part being cut. This enables an arc to be cut at any place on the part.
 
   - to cut circular pieces
-

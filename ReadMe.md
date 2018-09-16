@@ -3,8 +3,7 @@
 
 ### Computer Intergrated Manufacturing
 
-  -  [Notes from Ramakant Rana Sir](/CIM/Notes/ReadMe.md)
-
+  -  Notes from Ramakant Rana Sir
     - [Unit 1](/CIM/Notes/Unit%201.md)
     - [Unit 2](/CIM/Notes/Unit%202.md)
     - [Unit 3](/CIM/Notes/Unit%203.md)
