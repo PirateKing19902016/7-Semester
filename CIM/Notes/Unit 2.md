@@ -1,3 +1,8 @@
+# Unit 2
+
+
+# Computer Integrated Manufacturing (CIM)
+
  - This methodological approach is applied to all activities from the design of the product to customer support in an integrated way, using various methods, means and techniques in order to achieve production improvement, cost reduction, fulfillment of scheduled delivery dates, quality improvement and total flexibility in the manufacturing system. CIM requires all those associated with a company to involve totally in the process of product development and manufacture. In such a holistic approach, economic, social and human aspects have the same importance as technical aspects.
 
  - Computer Integrated Manufacturing (CIM) encompasses the entire range of product development and manufacturing activities with all the functions being carried out with the help of dedicated software packages. The data required for various functions are passed from one application software to another in a seamless manner. For example, the product data is created during design. This data has to be transferred from the modeling software to manufacturing software without any loss of data. CIM uses a common database wherever feasible and communication technologies to integrate design, manufacturing and associated business functions that combine the automated segments of a factory or a manufacturing facility. CIM  reduces  the human component  of manufacturing and thereby relieves the process of its slow, expensive and errorprone component. CIM stands for a holistic and methodological approach to the activities of the manufacturing enterprise in order to achieve vast improvement in its performance.
